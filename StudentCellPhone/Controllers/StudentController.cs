@@ -1,19 +1,21 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Text.Encodings.Web;
 
 namespace StudentCellPhone.Controllers
 {
     public class StudentController : Controller
     {
-        //Get: /Student 
-        public string Index()
+        //Get: /Student/
+        public IActionResult Index()
         {
-            return "this is my default action";
+            return View();
         }
         //
-        // GET: / Student/Welcome/
-        public string WelcomeStudent()
+        // GET: / Student/WelcomeStudent/
+        public string WelcomeStudent( string name, int ID = 1)
         {
-            return " this is the Welcome Student action method...";
+            //return " this is the Welcome Student action method...";
+            return HtmlEncoder.Default.Encode($"Hello {name}, ID: {ID}");
         }
     }
         
