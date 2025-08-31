@@ -10,13 +10,15 @@ namespace StudentCellPhone.Controllers
         {
             return View();
         }
-        //
-        // GET: / Student/WelcomeStudent/
-        //public string WelcomeStudent( string name, int ID = 1)
-        //{
-        //    //return " this is the Welcome Student action method...";
-        //    return HtmlEncoder.Default.Encode($"Hello {name}, ID: {ID}");
-        //}
+
+        public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public IActionResult Home()
+        {
+            return View();
+        }
     }
-        
 }
