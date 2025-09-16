@@ -1,0 +1,18 @@
+{
+  "name": "studentcellphone",
+  "version": "1.0.0",
+  "description": "**StudentCellPhone** is an ASP.NET Core MVC application built with C# that manages a list of student cell phones. It provides full CRUD (Create, Read, Update, Delete) functionality using SQLite as the database and Microsoft Entity Framework Core as the ORM (Object-Relational Mapper).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^4.1.13"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.13"
+  }
+}
