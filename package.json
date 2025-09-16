@@ -9,9 +9,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "tailwindcss": "^4.1.13"
-  },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.13"
   }
